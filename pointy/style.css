@@ -1,0 +1,164 @@
+html,
+body
+{
+background-color:white;
+height:100%;
+width:100%;
+margin:0px;
+}
+
+a.nav:link { text-decoration: none; color:white;}
+a.nav:active { text-decoration: none; color:white;}
+a.nav:visited { text-decoration: none; color:white;}
+
+#header
+{
+width:auto;
+height:340px;
+margin:auto;
+background-color:#910505;
+color: white;
+}
+
+#headercontent
+{
+width:1000px;
+height:100%;
+margin:auto;
+}
+
+#title
+{
+float:left;
+width:500px;
+padding-top:30px;
+height:310px;
+font-size:5em;
+}
+
+#nav
+{
+float:right;
+width:490px;
+height:290px;
+padding-top:50px;
+font-size:1.6em;
+text-align:right;
+word-spacing:10px;
+}
+
+#headerborder
+{
+width:auto;
+height:70px;
+margin:auto;
+border:0px;
+text-align:left;
+background-image:url('images/edge-ds3.png');
+color: white;
+text-transform:lowercase;
+}
+
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+
+.push {
+height: 4em;
+}
+
+#main{
+min-height:800px;
+width:1000px;
+margin:50px auto;
+}
+
+#maintop{
+height:160px;
+}
+
+#maintopleft{
+float:left;
+height:100%;
+width:160px;
+background-image:url('images/face-es.jpg');
+background-repeat:no-repeat;
+background-position:center;
+
+}
+
+#maintopright{
+float:right;
+height:100%;
+width:790px;
+padding:20px;
+
+}
+
+#maincontent{
+padding:20px;
+width:960px;
+}
+
+#columns{
+height:400px;
+}
+
+#maincolone{
+float:left;
+width:290px;
+height:400px;
+}
+
+#maincolmid{
+float:right;
+width:290px;
+height:400px;
+margin-right:40px;
+}
+
+#maincoltwo{
+float:right;
+width:290px;
+height:400px;
+}
+
+#mainbottom{
+min-height:400px;
+}
+
+.introduction{
+font-size:3.5em;
+}
+
+.columnhead{
+font-size:2.5em;
+}
+
+#footer
+{
+width:auto;
+height:140px;
+margin:auto;
+border:0px;
+text-align:left;
+background-color:#910505;
+color: white;
+text-transform:lowercase;
+}
+
+#footerborder
+{
+width:auto;
+height:70px;
+margin:auto;
+border:0px;
+text-align:left;
+background-image:url('images/edge-ds3-180.png');
+color: white;
+text-transform:lowercase;
+}

@@ -1,0 +1,194 @@
+html,
+body
+{
+background-color:black;
+height:100%;
+width:100%;
+margin:0px;
+}
+
+a.headerright:link {text-decoration: none; color:white;}
+a.headerright:active {text-decoration: none; color:white;}
+a.headerright:visited {text-decoration: none; color:white;}
+a.headerright:hover {text-decoration: none; color:#6b6b6b; font-weight:900;}
+
+a.footertop:link {text-decoration: none; color:white;}
+a.footertop:active {text-decoration: none; color:white;}
+a.footertop:visited {text-decoration: none; color:white;}
+a.footertop:hover {text-decoration: none; color:#6b6b6b; font-weight:900;}
+
+h1.contentbottom{font-size:1.4em;}
+p.contentbottom{font-size:.8em; text-align:justify; font-family: 'Crete Round', serif;}
+ul.contentbottom{font-size:.8em; text-align:justify;}
+ul{font-family: 'Crete Round', serif;}
+p{font-family: 'Crete Round', serif; font-size:1.05em;}
+
+h1{font-family: 'Montserrat', sans-serif;}
+h2{font-family: 'Montserrat', sans-serif;}
+
+#header
+{
+margin:0 auto;
+margin-top:60px;
+height:100px;
+width:1200px;
+background-image:url('images/bkg-1200-top.jpg');
+background-repeat:no-repeat;
+text-transform:uppercase;
+}
+
+#headerleft
+{
+padding-top:50px;
+margin-left:150px;
+width:38%;
+height:50px;
+float:left;
+color:white;
+font-size:2.8em;
+font-family: 'Ruda', sans-serif;
+}
+
+#headerright
+{
+margin-right:150px;
+height:45px;
+width:34%;
+float:right;
+color:white;
+font-size:1em;
+font-weight:bold;
+padding-top:55px;
+word-spacing:5px;
+font-family: 'Ruda', sans-serif;
+}
+
+#main
+{
+margin:0 auto;
+height:auto;
+min-height:1400px;
+width:1200px;
+background-image:url('images/bkg-1200-main.jpg');
+background-repeat:no-repeat;
+}
+
+#content
+{
+margin:0 auto;
+margin-top:5px;
+height:auto;
+min-height:1200px;
+width:900px;
+background-image:url('images/paper2c6.jpg');
+box-shadow: 2px 2px 10px 10px #171414;
+}
+
+#topstories
+{
+margin: 0 auto;
+margin-top:15px;
+height:150px;
+width:860px;
+overflow:hidden;
+}
+
+#contentleft
+{
+padding:10px;
+float:left;
+margin: 0 auto;
+margin-left:20px;
+margin-top:15px;
+min-height:1150px;
+width:270px;
+background-color:#c1b287;
+opacity:.8;
+box-shadow: 0px 0px 2px 2px #171414;
+line-height:120%
+}
+
+#contentright
+{
+float:right;
+margin: 0 auto;
+margin-right:20px;
+margin-top:15px;
+min-height:850px;
+width:550px;
+}
+
+#contentbuffer
+{
+margin:0 auto;
+height:40px;
+width:900px;
+background-image:url('images/paper2c6-bottom-torn2.jpg');
+}
+
+#contentbottom
+{
+margin:0 auto;
+height:400px;
+width:900px;
+margin-bottom:80px;
+color:white;
+text-align:center
+font-family: 'Crete Round', serif;
+}
+
+#contentbottomleft
+{
+float:left;
+margin:0 auto;
+width:270px;
+}
+
+#contentbottomright
+{
+float:right;
+margin:0 auto;
+width:250px;
+overflow:hidden;
+}
+
+#contentbottommid
+{
+float:right;
+margin:0 auto;
+width:330px;
+padding-left:15px;
+padding-right:15px;
+}
+
+#footer
+{
+margin:0 auto;
+height:60px;
+width:500px;
+margin-bottom:30px;
+color:white;
+text-align:center;
+}
+
+#footertop
+{
+margin:0 auto;
+height:28px;
+width:500px;
+word-spacing:15px;
+font-size:.7em;
+font-weight:bold;
+text-transform:uppercase;
+font-family: 'Ruda', sans-serif;
+}
+
+#footerbottom
+{
+margin:0 auto;
+height:28px;
+width:500px;
+font-size:.7em;
+font-family: 'Crete Round', serif;
+}
+
